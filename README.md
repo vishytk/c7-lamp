@@ -1,5 +1,5 @@
 # c7-lamp
-CentOS based LAM Stack
+CentOS based LAMP Stack
 
 This Docker configuration provides a complete LAMP stack based on CentOS 7.3
 
