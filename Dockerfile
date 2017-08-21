@@ -13,5 +13,5 @@ RUN yum -y install httpd; systemctl enable httpd.service
 RUN yum -y install mysql-community-server mysql-community-client; systemctl enable mysqld.service
 RUN yum -y install php php-mysql php-xml php-mbstring phpMyAdmin
 RUN yum clean all
-EXPOSE 22 80 443 3000
+EXPOSE 22 80 443 3306
 CMD ["/usr/sbin/init"]
